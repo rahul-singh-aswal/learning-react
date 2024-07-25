@@ -1,8 +1,13 @@
+import Chai from "./chai"
+
 function App() { 
   return (
-    <h1>
-      Chai aur React with Vite | Rahul Singh Aswal
-    </h1>
+    <>
+    <h2>Chai aur React</h2>
+    <Chai />
+    <p>Test Paragraph</p>
+    
+    </>
   )
 }
 
